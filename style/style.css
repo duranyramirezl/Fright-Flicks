@@ -34,11 +34,13 @@ header div img {
   transition: filter 0.3s ease-in-out;
 }
 
+/*Help Source: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
 header div img:hover {
   filter: drop-shadow(0 0 10px #fff);
 }
 
 /* ===== Spiderweb Decoration ===== */
+/*ChatGPT 5 prompt: I have a decoration id like to place under my header, how do i do that? */ 
 .spider-web-up {
   position: absolute;
   top: 7.8em;
