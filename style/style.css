@@ -194,7 +194,7 @@ main {
   font-size: 1.5em;
 }
 
-#merch ul {
+#merch main ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -206,16 +206,16 @@ main {
   margin: 0;
 }
 
-#merch ul li {
+#merch main ul li {
   flex: 0 0 auto;
 }
 
-#merch ul li img {
+#merch main ul li img {
   width: 12.5em;
   transition: transform 0.3s ease-in-out;
 }
 
-#merch ul li img:hover {
+#merch main ul li img:hover {
   transform: scale(1.1);
 }
 
@@ -224,7 +224,7 @@ main {
   margin-top: 0.5em;
 }
 
-#merch ul li p {
+#merch main ul li p {
   font-size: 1.3em;
   margin-top: 0.3em;
 }
