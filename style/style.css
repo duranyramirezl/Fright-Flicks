@@ -1,0 +1,229 @@
+/* ===== Base Layout ===== */
+body {
+  margin: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0c0c0e;
+  color: #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+header {
+  border-bottom: 1px solid #ffeef3;
+}
+
+footer {
+  margin: 2em 1.3em 0;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+footer img {
+  width: 7em;
+}
+
+header div img {
+  transition: filter 0.3s ease-in-out;
+}
+
+header div img:hover {
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+/* ===== Spiderweb Decoration ===== */
+.spider-web-up {
+  position: absolute;
+  top: 7.8em;
+  right: 0;
+  width: 8em;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0.5em 0;
+}
+
+h1 span {
+  font-family: gothique-mn, sans-serif;
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav a {
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: transform 80ms ease-in-out, color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #b6b6b6;
+}
+
+nav a.active {
+  font-style: italic;
+}
+
+main {
+  padding: 1em;
+}
+
+/* ===== Home Layout ===== */
+#index section {
+  display: flex;
+}
+
+#index section div {
+  max-width: 40%;
+}
+
+#index section p {
+  line-height: 1.8;
+}
+
+#index iframe {
+  max-width: 100%;
+  border-radius: 0.5em;
+  margin: 2em;
+}
+
+/* ===== Episodes Grid ===== */
+
+#episodes main ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  justify-items: center;
+  align-items: start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#episodes main ul li article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+#episodes main ul li article h2 {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin-top: 0.5em;
+}
+
+#episodes main ul li article img {
+  width: 18em;
+  border-radius: 4%;
+  transition: transform 100ms ease-in-out;
+}
+
+#episodes main ul li article img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+
+/* ===== About Section ===== */
+#about section {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  padding-right: 5em;
+}
+
+#about article {
+  display: flex;
+}
+
+#about article img {
+  width: 10em;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 10px #fff);
+}
+
+/* ===== Merch Page ===== */
+#merch main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#merch h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#merch p {
+  margin-bottom: 2em;
+  font-size: 1.5em;
+}
+
+#merch ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3.5em;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
+}
+
+#merch ul li {
+  flex: 0 0 auto;
+}
+
+#merch ul li img {
+  width: 12.5em;
+  transition: transform 0.3s ease-in-out;
+}
+
+#merch ul li img:hover {
+  transform: scale(1.1);
+}
+
+#merch ul li h3 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+#merch ul li p {
+  font-size: 1.3em;
+  margin-top: 0.3em;
+}
