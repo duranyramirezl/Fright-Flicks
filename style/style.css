@@ -36,7 +36,7 @@ header div img:hover {
 }
 
 /* ===== Spiderweb Decoration ===== */
-/*ChatGPT 5 prompt: I have a decoration id like to place under my header, how do i do that? */ 
+/*ChatGPT 5 prompt: I have a decoration id like to place under my header, how do i do that? */
 .spider-web-up {
   position: absolute;
   top: 7.8em;
@@ -198,14 +198,8 @@ main {
   justify-content: center;
   align-items: flex-start;
   gap: 3.5em;
-  flex-wrap: nowrap;
-  overflow-x: auto;
   padding: 0;
   margin: 0;
-}
-
-#merch main ul li {
-  flex: 0 0 auto;
 }
 
 #merch main ul li img {
